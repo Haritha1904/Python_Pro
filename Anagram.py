@@ -7,6 +7,7 @@ class Anagram():
             print(" they are Anagrams ")
         else:
             print("they are not ")
-a=Anagram("Hari","arHi")
+a=Anagram("Hari","arHi") 
+# bat = tab
 a.Ana()
         
