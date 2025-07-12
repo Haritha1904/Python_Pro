@@ -1,4 +1,10 @@
-from abc import ABC , abstractmethod
+from abc import ABC , abstractmethod  # it is the syntax for abstract class 
+# here abc is module ABC is Abstract Base class
+#Obj cannot be created from abstract class ,
+#-holds only abstract methods min 1
+#-the sub classes should inhert the method from the abstract class 
+#-method implementation to be done only in subclases
+
 class abstract(ABC):
     @abstractmethod
     def area(self):

@@ -7,9 +7,8 @@ class Dog(Animal):
         # super().sound()
         print("Dog barks")
 
-class Cat(Animal):
+class Cat(Animal): #inheriying ftom yje base class
     def sound(self):
-        # super().sound()
         print("Cat meows")
 
 # Polymorphism in action
