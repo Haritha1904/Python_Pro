@@ -8,5 +8,5 @@ rotation_matrix = np.array([
     [np.sin(theta), np.cos(theta)]
 ])
 
-new_point = rotation_matrix@(point)
+new_point = rotation_matrix.dot(point)
 print("Rotated point ",new_point)
